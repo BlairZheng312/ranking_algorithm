@@ -1,6 +1,6 @@
 // improved version of insertion_sort by dividing arr to smaller group
 // insertion_sort is when gap === 1
-// time complexity: up to gap, if gap is divided by halp each time, worst case scenario => O(n**2)
+// time complexity: up to gap, if gap is divided by half each time, worst case scenario => O(n**2)
 
 function insertion_sort(arr, gap) {
     let length = arr.length
@@ -31,6 +31,5 @@ function shell_sort(arr) {
 }
 
 let arr = [9, 6, 4, 3, 5, 7, 1, 22, 38, 8]
-// insertion_sort(arr, 4)
 shell_sort(arr)
 console.log(arr)
